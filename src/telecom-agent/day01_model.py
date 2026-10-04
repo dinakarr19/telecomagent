@@ -4,6 +4,8 @@ from langchain.chat_models import init_chat_model
 from langchain_core.messages import SystemMessage, HumanMessage
 
 from pathlib import Path
+
+print("Loading environment variables from .env file")
 env_path=Path(__file__).resolve().parents[2]/".env"
 
 load_dotenv(env_path)

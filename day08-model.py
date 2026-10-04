@@ -220,3 +220,4 @@ if "__interrupt__" in paused_result:
 
     for item in pending:
         print(item.value)
+print("hello")
